@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace BankBuddy.API.Controllers
 {
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -24,7 +25,6 @@ namespace BankBuddy.API.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
-            
         }
 
         // PUT api/values/5
