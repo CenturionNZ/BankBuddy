@@ -76,9 +76,10 @@
     <Content Include="forms.html" />
     <Content Include="grid.html" />
     <Content Include="index.html" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\jquery-1.11.0.js" />
+    <Content Include="js\vendor\angular.min.js" />
+    <Content Include="js\vendor\bootstrap.js" />
+    <Content Include="js\vendor\bootstrap.min.js" />
+    <Content Include="js\vendor\jquery-1.11.0.js" />
     <Content Include="js\plugins\dataTables\dataTables.bootstrap.js" />
     <Content Include="js\plugins\dataTables\jquery.dataTables.js" />
     <Content Include="js\plugins\flot\excanvas.min.js" />
